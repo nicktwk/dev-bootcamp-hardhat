@@ -12,7 +12,7 @@ module.exports = async ({
     let oracle
     let additionalMessage = ""
     let btcUsdPriceFeedAddress = '0x6135b13325bfC4B00278B4abC5e20bbce2D6580e'
-    //set log level to ignore non errors
+    
     ethers.utils.Logger.setLogLevel(ethers.utils.Logger.levels.ERROR)
 
     if (chainId == 31337) {
